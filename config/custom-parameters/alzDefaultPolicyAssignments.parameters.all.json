@@ -1,0 +1,84 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "parTopLevelManagementGroupPrefix": {
+      "value": "cspe.cloud"
+    },
+    "parManagementGroupIdOverrides": {
+      "value": {}
+    },
+    "parTopLevelManagementGroupSuffix": {
+      "value": ""
+    },
+    "parDdosEnabled": {
+      "value": true
+    },
+    "parPlatformMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parLandingZoneChildrenMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parLandingZoneMgConfidentialEnable": {
+      "value": false
+    },
+    "parLogAnalyticsWorkSpaceAndAutomationAccountLocation": {
+      "value": "eastus2"
+    },
+    "parLogAnalyticsWorkspaceResourceId": {
+      "value": "/subscriptions/fcc623fd-02b6-4d58-ba3b-5b642695f529/resourcegroups/rg-cspe.cloud-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
+    },
+    "parLogAnalyticsWorkspaceLogRetentionInDays": {
+      "value": "365"
+    },
+    "parLogAnalyticsWorkspaceResourceCategory": {
+      "value": "allLogs"
+    },
+    "parDataCollectionRuleVMInsightsResourceId": {
+      "value": "/subscriptions/fcc623fd-02b6-4d58-ba3b-5b642695f529/resourcegroups/rg-cspe.cloud-logging/providers/Microsoft.Insights/dataCollectionRules/alz-ama-vmi-dcr"
+    },
+    "parDataCollectionRuleChangeTrackingResourceId": {
+      "value": "/subscriptions/fcc623fd-02b6-4d58-ba3b-5b642695f529/resourcegroups/rg-cspe.cloud-logging/providers/Microsoft.Insights/dataCollectionRules/alz-ama-ct-dcr"
+    },
+    "parDataCollectionRuleMDFCSQLResourceId": {
+      "value": "/subscriptions/fcc623fd-02b6-4d58-ba3b-5b642695f529/resourcegroups/rg-cspe.cloud-logging/providers/Microsoft.Insights/dataCollectionRules/alz-ama-mdfcsql-dcr"
+    },
+    "parUserAssignedManagedIdentityResourceId": {
+      "value": "/subscriptions/fcc623fd-02b6-4d58-ba3b-5b642695f529/resourcegroups/rg-cspe.cloud-logging/providers/Microsoft.ManagedIdentity/userAssignedIdentities/alz-umi-identity"
+    },
+    "parAutomationAccountName": {
+      "value": "alz-automation-account"
+    },
+    "parMsDefenderForCloudEmailSecurityContact": {
+      "value": "admin@cspe.tech"
+    },
+    "parDdosProtectionPlanId": {
+      "value": "/subscriptions/0ee94efc-a90c-4dee-b957-e254a50ebb08/resourceGroups/rg-cspe.cloud-connectivity/providers/Microsoft.Network/ddosProtectionPlans/alz-ddos-plan"
+    },
+    "parPrivateDnsResourceGroupId": {
+      "value": "/subscriptions/0ee94efc-a90c-4dee-b957-e254a50ebb08/resourceGroups/rg-cspe.cloud-connectivity"
+    },
+    "parPrivateDnsZonesLocation": {
+      "value": "eastus"
+    },
+    "parPrivateDnsZonesNamesToAuditInCorp": {
+      "value": []
+    },
+    "parDisableAlzDefaultPolicies": {
+      "value": false
+    },
+    "parVmBackupExclusionTagName": {
+      "value": ""
+    },
+    "parVmBackupExclusionTagValue": {
+      "value": []
+    },
+    "parExcludedPolicyAssignments": {
+      "value": []
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    }
+  }
+}
