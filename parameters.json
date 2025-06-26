@@ -1,0 +1,20 @@
+{
+  "AVAILABILITY_ZONES": [
+    "1",
+    "2",
+    "3"
+  ],
+  "AVAILABILITY_ZONES_SECONDARY": [],
+  "CONNECTIVITY_RESOURCE_GROUP": "rg-cspe.cloud-connectivity",
+  "CONNECTIVITY_SUBSCRIPTION_ID": "0ee94efc-a90c-4dee-b957-e254a50ebb08",
+  "IDENTITY_SUBSCRIPTION_ID": "7eba5929-8d0b-4e29-b4a7-5beb54af496b",
+  "LOCATION": "eastus",
+  "LOGGING_RESOURCE_GROUP": "rg-cspe.cloud-logging",
+  "MANAGEMENT_SUBSCRIPTION_ID": "fcc623fd-02b6-4d58-ba3b-5b642695f529",
+  "NETWORK_TYPE": "hubNetworking",
+  "MANAGEMENT_GROUP_ID": "cspe.cloud",
+  "PREFIX": "cspe.cloud",
+  "RELEASE_VERSION": "v0.22.2",
+  "ROOT_PARENT_MANAGEMENT_GROUP_ID": "",
+  "SECONDARYLOCATION": ""
+}
