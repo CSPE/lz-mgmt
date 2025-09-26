@@ -14,7 +14,8 @@
   "NETWORK_TYPE": "hubNetworking",
   "MANAGEMENT_GROUP_ID": "cspe.cloud",
   "PREFIX": "cspe.cloud",
-  "RELEASE_VERSION": "v0.22.2",
+  "RELEASE_VERSION": "v0.23.0",
   "ROOT_PARENT_MANAGEMENT_GROUP_ID": "",
   "SECONDARYLOCATION": ""
 }
+
